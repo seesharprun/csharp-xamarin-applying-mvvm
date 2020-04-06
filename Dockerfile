@@ -18,8 +18,6 @@ RUN dotnet build ${APP_DIR}/Roster.Client/Roster.Client.csproj
 
 RUN dotnet build ${APP_DIR}/Roster.Client.Tests.Mod02/Roster.Client.Tests.Mod02.csproj
 
-<<<<<<< HEAD
-=======
 RUN dotnet build ${APP_DIR}/Roster.Client.Tests.Mod03/Roster.Client.Tests.Mod03.csproj
 
 RUN dotnet build ${APP_DIR}/Roster.Client.Tests.Mod04/Roster.Client.Tests.Mod04.csproj
@@ -28,5 +26,4 @@ RUN dotnet build ${APP_DIR}/Roster.Client.Tests.Mod05/Roster.Client.Tests.Mod05.
 
 RUN dotnet build ${APP_DIR}/Roster.Client.Tests.Mod06/Roster.Client.Tests.Mod06.csproj
 
->>>>>>> ac34ef97b860835d16c181f7fc408874bd7589c3
 ENTRYPOINT ["/bin/sh"]
