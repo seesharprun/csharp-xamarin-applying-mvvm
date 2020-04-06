@@ -7,7 +7,7 @@ namespace Roster.Client.ViewModels
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
-        public string Title { get; set; }
+        public string Title { get; set; } = "Roster App";
 
         public Command UpdateApplicationCommand;
     }
