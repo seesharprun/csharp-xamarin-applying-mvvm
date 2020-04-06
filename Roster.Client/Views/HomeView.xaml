@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Roster.Client.Views.HomeView">
     <StackLayout>
-        <Label x:Name="TitleLabel" x:FieldModifier="public" Text="Title Goes Here" FontSize="12" HorizontalTextAlignment="Center" VerticalOptions="Start" />
+        <Label x:Name="TitleLabel" x:FieldModifier="public" Text="{Binding Title, Mode=OneTime, FallbackValue=Header}" FontSize="Header" HorizontalTextAlignment="Center" VerticalOptions="Start" />
         <StackLayout Orientation="Horizontal">
             <Entry x:Name="FirstNameEntry" x:FieldModifier="public" Keyboard="Text" Placeholder="First Name" HorizontalOptions="FillAndExpand" />
             <Entry x:Name="LastNameEntry" x:FieldModifier="public" Keyboard="Text" Placeholder="Last Name" HorizontalOptions="FillAndExpand" />
