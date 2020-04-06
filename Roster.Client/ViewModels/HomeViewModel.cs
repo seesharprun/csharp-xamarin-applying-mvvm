@@ -1,3 +1,5 @@
+using Roster.Client.Models;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using Xamarin.Forms;
 
@@ -20,6 +22,8 @@ namespace Roster.Client.ViewModels
         }
 
         public Command UpdateApplicationCommand;
+
+        public ObservableCollection<Person> People { get; }
 
         public HomeViewModel()
         {
