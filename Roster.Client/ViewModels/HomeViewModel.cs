@@ -21,7 +21,7 @@ namespace Roster.Client.ViewModels
             }
         }
 
-        public Command UpdateApplicationCommand;
+        public Command UpdateApplicationCommand { get; }
 
         public ObservableCollection<Person> People { get; }
 
