@@ -5,7 +5,7 @@ namespace Roster.Client.ViewModels
 {
     public partial class HomeViewModel : INotifyPropertyChanged
     {
-        private string _title = "Roster App";
+        private string _title = "Roster";
 
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -28,7 +28,7 @@ namespace Roster.Client.ViewModels
 
         private void UpdateApplicationExecute()
         {
-            Title = "Roster App (v2.0)";
+            Title = "Roster v2";
         }
     }
 }
