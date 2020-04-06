@@ -11,4 +11,4 @@ namespace Roster.Client.ViewModels
 
         public Command UpdateApplicationCommand;
     }
-} 
+}
