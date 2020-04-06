@@ -20,4 +20,6 @@ RUN dotnet build ${APP_DIR}/Roster.Client.Tests.Mod02/Roster.Client.Tests.Mod02.
 
 RUN dotnet build ${APP_DIR}/Roster.Client.Tests.Mod03/Roster.Client.Tests.Mod03.csproj
 
+RUN dotnet build ${APP_DIR}/Roster.Client.Tests.Mod04/Roster.Client.Tests.Mod04.csproj
+
 ENTRYPOINT ["/bin/sh"]
