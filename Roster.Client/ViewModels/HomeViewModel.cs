@@ -9,6 +9,6 @@ namespace Roster.Client.ViewModels
 
         public string Title { get; set; } = "Roster App";
 
-        public Command UpdateApplicationCommand;
+        public Command UpdateApplicationCommand { get; }
     }
 }
