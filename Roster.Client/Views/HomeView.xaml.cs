@@ -1,4 +1,5 @@
 ﻿using Xamarin.Forms;
+using Roster.Client.ViewModels;
 
 namespace Roster.Client.Views
 {
