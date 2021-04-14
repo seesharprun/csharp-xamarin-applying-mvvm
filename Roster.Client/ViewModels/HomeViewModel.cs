@@ -1,16 +1,19 @@
 using System.ComponentModel;
 using Xamarin.Forms;
 
-public class HomeViewModel : INotifyPropertyChanged
+namespace Roster.Client.ViewModels
 {
-    public event PropertyChangedEventHandler PropertyChanged;
-
-    public HomeViewModel()
+    public class HomeViewModel : INotifyPropertyChanged
     {
-        
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        public HomeViewModel()
+        {
+
+        }
+
+        public string Title { get; set; } = "Roster App";
+
+        public Command UpdateApplicationCommand { get; }
     }
-
-    public string Title { get; set; } = "Roster App";
-
-    public Command UpdateApplicationCommand { get; }
 }
